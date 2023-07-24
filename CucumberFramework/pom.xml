@@ -118,10 +118,12 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>CucumberJava</groupId>
-			<artifactId>CucumberJava</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.13.0</version>
+</dependency>
+
 	</dependencies>
 </project>
