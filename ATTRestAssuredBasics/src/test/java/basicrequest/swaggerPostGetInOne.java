@@ -55,6 +55,7 @@ public class swaggerPostGetInOne {
 		JsonPath jp1=resp.jsonPath();
 		String getid=jp1.getString("id");
 		System.out.println("id value from get req :"+getid);
+		System.out.println("Done the Testing");;
 		Assert.assertEquals(getid,postmsg);
 	}
 
